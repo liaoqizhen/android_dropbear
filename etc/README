@@ -1,0 +1,5 @@
+service start_sshd /system/xbin/dropbear -v
+    class main
+    user root
+    group root
+    oneshot
